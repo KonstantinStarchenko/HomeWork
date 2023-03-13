@@ -21,7 +21,7 @@ Console.Write("Введите трёхзначное число (строков�
 String NumStr = Console.ReadLine();
 if (NumStr.Length==3)
 {
-    Console.WriteLine($"{number} -> {NumStr[1]}");
+    Console.WriteLine($"{NumStr} -> {NumStr[1]}");
 }
 else
 {
